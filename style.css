@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700;800&family=Poppins:wght@100;200;300;400;600;700&display=swap');
+*{
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: centerS;
+}
+.calculator-box{
+    border-radius: 5px;
+    max-width: 650px !important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+    margin: 10px;
+}
+input[type="text"]{
+    outline: none;
+    border: none;
+    border: 1px solid rgb(192, 191, 191);
+}
+.calculate-btn{
+    border: none;
+    outline: none;
+    background-color: rgb(65, 240, 59);
+    color: #fff;
+    font-size: 20px ;
+}
